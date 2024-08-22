@@ -29,6 +29,3 @@ class TodoBook:
         objeto = Todo(id, title, description)
         self.todos[id] = objeto
         return id
-
-    
-
