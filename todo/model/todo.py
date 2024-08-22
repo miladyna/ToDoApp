@@ -18,4 +18,11 @@ class Todo:
         return f"{self.code_id} - {self.title}"
 
 
+
+class TodoBook:
+
+    def __init__(self, todos: dict[int, Todo] = {}):
+        self.todos = todos
+
+    
     
